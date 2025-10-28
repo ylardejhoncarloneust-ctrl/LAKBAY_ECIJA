@@ -60,7 +60,7 @@ h4, .NE, .capital{
 
 .header {
   width: 100%;
-  background: black;
+  background: #043915;
 }
 
 nav {
@@ -104,9 +104,9 @@ nav {
   position: fixed;
   top: 0;
   right: -500px;
-  width: 300px;
+  width: 250px;
   height: 100%;
-  background: black;
+  background: #043915;
   backdrop-filter: blur(4px);
   display: flex;
   flex-direction: column;
@@ -156,7 +156,7 @@ nav {
 }
 
 .menu-links a {
-  background-color:#2e8b57 ;
+  background-color: #4C763B ;
   color: white;
   padding: 12px 20px;
   border-radius: 30px;
@@ -168,7 +168,7 @@ nav {
 }
 
 .menu-links a:hover {
-  background: #bf8a44;
+  background: #B0CE88;
 }
 
 /* LOGOUT BUTTON */
@@ -195,7 +195,7 @@ nav {
 
 .butn {
   position: relative;
-  background-color: #6ec6ff;
+  background-color: #FFFD8F;
   width: 250px;
   height: 40px;
   color: black;
