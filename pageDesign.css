@@ -17,45 +17,7 @@ body::before {
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 0;
-}
-
-.inside{
-  margin-top:50px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.title{
-  margin-top:30px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-h4 {
-  margin-top: 50px;
-  text-align:center;
-  color: white;
-  font-size: 30px;
-  font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
-}
-
-.capital {
-  font-size: 100px;
-}
-
-.NE{
-  color: white;
-  font-size: 60px;
-  font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
-}
-
-/* HEADER BAR */
-h4, .NE, .capital{
-  position: relative;
-  z-index: 0;
+  z-index: -1;
 }
 
 .header {
@@ -80,6 +42,7 @@ nav {
 
 /* HAMBURGER ICON */
 .hamburger {
+	position:fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,6 +51,7 @@ nav {
   position: absolute;
   right: 20px;
   top: 12px;
+  z-index: 1000;
 }
 
 .hamburger span {
@@ -96,6 +60,7 @@ nav {
   background: white;
   border-radius: 2px;
   transition: 0.3s;
+  z-index: 999;
 }
 
 
@@ -191,7 +156,44 @@ nav {
   transition: opacity 0.3s ease;
 }
 
-/* Mainpage Button*/
+/* HOME PAGE*/
+.inside{
+  margin-top:20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h4 {
+  margin-top: 30px;
+  text-align:center;
+  color: white;
+  font-size: 4vw;
+  font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
+}
+
+.capital {
+  font-size: clamp(80px, 8vw, 350px);
+}
+
+.NE{
+	margin-top: 0px;
+  color: white;
+  font-size: clamp(60px, 6vw, 90px);
+  font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", cursive;
+}
+
+/* HEADER BAR */
+h4, .NE, .capital{
+  position: relative;
+  z-index: 0;
+}
 
 .butn {
   position: relative;
@@ -208,9 +210,71 @@ nav {
   align-items: center;
   text-decoration: none;  
 
-.container {
-  text-align: center; 
-  display: flex;
-  justify-content: center; 
-  align-items: center;   
+}
+
+/* DESTINATION PAGE */
+.container{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	gap:50px;
+}
+.leftBut,.rightBut{
+	margin-top:30px;
+}
+.leftBut, .rightBut{
+	align-items:center;
+	justify-content: center;
+	display:flex;
+}
+
+.leftBut{
+	width:200px;
+	height:80vh;
+	
+}
+
+.centerImg{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	margin-top: 80px;
+	width: 1000px;
+	height: 500px;
+	overflow-x:auto;
+	overflow-y:hidden;
+	gap: 100px;
+	scrollbar-color: #4C763B transparent;
+}
+
+.banner {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.rightBut{
+	width:200px;
+	height:80vh;
+
+}
+
+.lbut, .rbut{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position:relative;
+	width: 5vw;     
+  height: 5vw;       
+  font-size: 3vw; 
+	min-width: 35px;   
+  min-height: 35px;
+	border-radius: 50px;
+	font-size: 40px;
+	text-align: center;
+	border:none;
+	background-color:#FFFD8F;
+	
 }
