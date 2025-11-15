@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" href="pageDesign.css">
+  <link rel="stylesheet" href="Profile.css">
+</head>
+<body>
+	<div class="header">
+    <nav>
+      <span class="logo">LAKBAY ECIJA</span>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sideMenu" id="sideMenu">
+        <div class="menu-header">
+          <h2>LAKBAY ECIJA</h2>
+          <span class="close-btn" id="close-btn">×</span>
+        </div>
+        <p class="profile">MY PROFILE</p>
+        <div class="menu-links">
+          <a href="HomePage.html">Home</a>
+          <a href="Destination.html">Destinations</a>
+          <a href="Packages.html">Packages</a>
+          <a href="#">My Plan</a>
+        </div>
+        <a href="#" class="logout">LOG OUT</a>
+      </div>
+    </nav>
+  </div>
+  
+   <div class="con">
+    <div class="hid">
+      <button class="back-btn">&#8592;</button>
+      <h2>EDIT PROFILE</h2>
+      <button class="save-btn">&#10003;</button>
+    </div>
+	
+	<input type="file" id="try">
+	
+	<form class="Proform">
+	<div class="prodiv">
+	<div class="bilog">
+          <label for="imageInput" class="prop">+</label>
+          <input type="file" id="imageInput" accept="image/*">
+		  <img id="preview" alt="Image Preview">
+        </div>
+	</div>
+    <div class="frm">
+        <label for="Fname" class="pro">First Name</label>
+		<input type="text" id="Fname" class="porf" placeholder="First Name" required>
+		
+      <label for="Lname" class="pro">Last Name</label>
+		<input type="text" id="Lname" class="porf" placeholder="Last Name" required>
+		
+      <label for="bio" class="pro">Bio</label>
+		<input type="text" id="bio" class="porf" placeholder="Bio" required>
+		
+      <label for="gen" class="pro">Gender</label>
+		<input type="text" id="gen" class="porf" placeholder="Gender" required>
+		
+      <label for="Bday" class="pro">Birthday</label>
+		<input type="date" id="Bday" class="porf" placeholder="Birthday" required>
+		
+      <label for="phone" class="pro">Phone</label>
+		<input type="tel" id="phone" class="porf" placeholder="Phone Number" required>
+		
+	<label for="Email" class="pro">Email</label>
+		<input type="text" id="Email" class="porf" placeholder="Email Address" required>
+		</br>
+      </div>
+    </div>
+	</form>
+  </div>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+</body>
+</html>

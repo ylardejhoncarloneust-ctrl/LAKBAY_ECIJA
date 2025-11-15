@@ -1,0 +1,15 @@
+.TC {
+	background-color: #f3d47b;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      color: #333;
+      font-weight: bold;
+    }
+}
+
+.tc {
+	background-color: #2e8b57;
+      padding: 20px;
+}
+	

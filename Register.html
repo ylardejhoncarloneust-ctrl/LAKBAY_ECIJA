@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>REGISTER</title>
+  <link rel="stylesheet" href="Login.css">
+  <link rel="stylesheet" href="pageDesign.css">
+</head>
+<body>
+
+	<div class="header">
+    <nav>
+      <span class="logo">LAKBAY ECIJA</span>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sideMenu" id="sideMenu">
+        <div class="menu-header">
+          <h2>LAKBAY ECIJA</h2>
+          <span class="close-btn" id="close-btn">×</span>
+        </div>
+        <p class="profile">MY PROFILE</p>
+        <div class="menu-links">
+          <a href="HomePage.html">Home</a>
+          <a href="Destination.html">Destinations</a>
+          <a href="Packages.html">Packages</a>
+          <a href="#">My Plan</a>
+        
+    </nav>
+  </div>
+  
+  <center>
+   <div class="regcont">
+    <div class="regbg">
+      <h2 class="regtitle">REGISTER AN ACCOUNT</h2>
+
+      <form class="regform" id="regform">
+	  
+	    <label for="username" class="sanaolllabel">Create your username:</label>
+		<div class="inputbox">
+            <input type="text" id="username" placeholder="USERNAME" required autofocus />
+		</div>
+	  
+	  <label for="email" class="sanaolllabel">Email address:</label>
+		<div class="inputbox">
+            <input type="email" id="email" name="email" placeholder="EMAIL" required />
+		</div>
+		
+	  <label for="password" class="sanaolllabel">Create a password:</label>
+        <div class="inputbox">
+            <input type="password" id="password" name="password" placeholder="PASSWORD" required autocomplete="on" pattern="[A-Z,a-z,0-9,@]{8,}" title="Password must be at least 8 characters long and can include letters, numbers, and @">
+        </div>
+		
+		<label for="confpassword" class="sanaolllabel">Confirm password:</label>
+        <div class="inputbox">
+            <input type="password" id="confpassword" name="confpassword" placeholder="PASSWORD" required autocomplete="on" pattern="[A-Z,a-z,0-9,@]{8,}" title="Password must be at least 8 characters long and can include letters, numbers, and @">
+        </div>
+		<br/>
+	
+		<div class="terms">
+			<input type="checkbox" id="terms" name="terms" required > 
+			<label for="terms">I accept the <a href="Terms and conditions.html" class="register" >terms and condition </a></label>
+		</div>
+		
+        <button type="submit" class="login-btn">REGISTER</button>
+      </form>
+
+      <div class="humahati">
+        <span>OR</span>
+      </div>
+      <p class="register">Already have an account? <a href="Login.html">Log In</a></p>
+	
+    </div>
+  </div>
+  </center>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+</body>
+</html>

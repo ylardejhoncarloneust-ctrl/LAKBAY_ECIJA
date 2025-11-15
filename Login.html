@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOG IN</title>
+  <link rel="stylesheet" href="Login.css">
+  <link rel="stylesheet" href="pageDesign.css">
+</head>
+<body>
+
+	<div class="header">
+    <nav>
+      <span class="logo">LAKBAY ECIJA</span>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sideMenu" id="sideMenu">
+        <div class="menu-header">
+          <h2>LAKBAY ECIJA</h2>
+          <span class="close-btn" id="close-btn">×</span>
+        </div>
+        <p class="profile">MY PROFILE</p>
+        <div class="menu-links">
+          <a href="HomePage.html">Home</a>
+          <a href="Destination.html">Destinations</a>
+          <a href="Packages.html">Packages</a>
+          <a href="#">My Plan</a>
+       
+    </nav>
+  </div>
+  
+  <center>
+   <div class="cont">
+    <div class="logix">
+      <h1>WELCOME</h1>
+      <p class="subtitle">Log in with Email</p>
+
+      <form class="logform" id="logform">
+		<label for="logemail" class="sanaolllabel">Enter your email:</label>
+        <div class="inputbox">
+            <input type="email" id="logemail" placeholder="EMAIL" required />
+        </div>
+		
+		<label for="logusername" class="sanaolllabel">Enter your username:</label>
+        <div class="inputbox">
+            <input type="password" id="logpassword" placeholder="PASSWORD" required pattern="[A-Z,a-z, 0-9, @]{8,}"/>
+        </div>
+
+        <a href="#" class="forgot">Forgot your password?</a>
+
+        <button type="submit" class="login-btn">LOGIN</button>
+      </form>
+
+      <div class="humahati">
+        <span>OR</span>
+      </div>
+      <p class="register">Don’t have an account? <a href="Register.html">Register Now</a></p>
+    </div>
+  </div>
+  </center>
+  <script src="main.js"></script>
+  <script src="data.js"></script>
+</body>
+</html>
