@@ -1,0 +1,296 @@
+<!DOCTYPE html> <!-- YUNG MAY MGA COMMENT LANG GALAWIN NYO WALA NANG IBA PATI YUNG INFO.CSS WAG NYONG GAGALAWIN, KAKATAYIN KO KAYO PAG GINALAW NYO YUN-->
+<html>
+<head>
+  <title>ALOHA FALLS-info</title> <!-- Palitan nyo yung title kung anong place -->
+  <link rel="stylesheet" href="info.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <span class="logo">LAKBAY ECIJA</span>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sideMenu" id="sideMenu">
+        <div class="menu-header">
+          <h2>LAKBAY ECIJA</h2>
+          <span class="close-btn" id="close-btn">×</span>
+        </div>
+        <p class="profile">MY PROFILE</p>
+        <div class="menu-links">
+          <a href="HomePage.html">Home</a>
+          <a href="Destination.html" style="background-color: #B0CE88">Destinations</a>
+          <a href="Packages.html">Packages</a>
+          <a href="#">My Plan</a>
+        </div>
+        <a href="#" class="logout">LOG OUT</a>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="imageContainer">
+	<div class="imahe"> 
+		<img src="AF1.jpg" style="width: 250px; height: 380px;"> <!-- PALITAN NYO YUNG IMAGE. PAG DINOWNLOAD NYO ILAGAY NYO SA SAME FOLDER TAPOS IN RENAME NYO YUNG MADALI TANDAAAN AT I TYPE-->
+		<img src="AF2.jpg" style="width: 250px; height: 200px;"> <!-- LAHAT NG IMAGE NATO PALITAN NYO YUNG MGA MAGAGANDA AND UNIQUE DON SA DESTINATION NA GINAGAWA NYO -->
+		<img src="AF3.jpg" style="width: 250px; height: 200px;"> <!-- PWEDE I EDIT YUNG HEIGHT NG IMAGE BASTA SIGURADUHIN NYO NA DI PAPANGIT AT PANTAY PARIN-->
+		<img src="AF4.jpg" style="width: 250px; height: 380px;"> <!-- WAG NYO GAGALAWIN YUNG WIDTH FIX NA YUN-->
+		<img src="AF5.jpg" style="width: 250px; height: 380px;">
+		<img src="AF6.jpg" style="width: 250px; height: 380px;">
+    </div>
+	<div class="imahe2"> 
+			<h1>ALOHA FALLS</h1><!--SYEMPRE PALITAN NYO DIN TONG TITLE NITO TAPOS YUNG DESCRIPTION KUNIN NYO DON SA PINAGAWA KO SA INYO SA SPREADSHEET KAHIT WALA MUNA YUNG MGA PRICE AT COTTAGE SA IBANG PAGE YUN -->
+			<p class="texT">Aloha Falls is located in barangay Puncan in Carranglan, Nueva Ecija. Surrounded by the green foliage and about 15 meters to 20 meters in height. Aside from being picnic grove, the site is also perfect for trekking and mountain climbing.</p>
+    
+			<div class="smallButton">
+				<a href="https://maps.app.goo.gl/SkSvhbb7E6gqZy1k9" class="but">LOCATION</a> <!-- i SEARCH NYO SA GOOGLE MAP THEN I COPY NYO LINK TAPOS IPALIT NYO SA HREF -->
+				<button href="" class="but" id="reserve">RESERVATION INFO </button>
+				<button class="but" id="feed">FEEDBACK</button>
+			</div>
+	</div>
+
+	<div id="feedbox" class="feedbox">
+	 <span class="closebtn" id="closefeed">×</span>
+	 
+	 <div class="type" id="type"> 
+		<form id="commentform">
+			<textarea class="enter" id="commenttext" placeholder="Enter Your Feedback" required></textarea>
+		    <button type="submit" class="send fa-solid fa-paper-plane"></button>
+		</form>
+	 </div>
+		
+		<div id="commentbox">
+			<div id="newcomment"> </div>
+		</div>
+		
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="aloha1.jpg" class="pfp"> 
+				<p class="username">Carlos Yulo</p>
+			</div>
+			<p class="comment">Aloha Falls is amazing! Ang view sobrang breathtaking at Instagram-worthy talaga. 😍 Pagdating mo, mapapahanga ka sa natural beauty — malinis ang tubig, puno ng mga halaman, at sobrang tahimik. Pwede kang mag-hike ng konti papunta sa falls at mararamdaman mo ‘yung adventure vibe. Ang sound ng falling water sobrang relaxing at nakakawala ng stress. Perfect ito para sa nature lovers at sa mga gusto lang ma-enjoy ang simple pleasures ng life.  </p>
+		</div>
+	
+	
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="aloha2.jpg" class="pfp"> 
+				<p class="username">Tokyo Athena</p>
+			</div>
+			<p class="comment">Napakaganda ng Aloha Falls! Ang tubig sobrang clear at refreshing, tapos ang natural pool sa ilalim ay perfect para mag-swimming o mag-chill lang. 🌊 Ang surroundings tahimik at puno ng greenery, kaya sobrang relaxing ng buong experience. Ang vibe ng lugar parang natural therapy — puwede kang mag-reflect, mag-picture, at mag-enjoy ng moment habang nakikinig sa tunog ng waterfall. Isa ito sa mga lugar na gusto mong balikan ulit dahil sobrang peaceful at maganda talaga!</p>
+		</div>
+	
+	
+	
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="aloha3.jpg" class="pfp"> 
+				<p class="username">Naruto Shapaden</p>
+			</div>
+			<p class="comment">
+				Grabe, ang ganda ng Aloha Falls! Paglapit mo sa lugar, ramdam mo na agad ang fresh na mountain air at ang relaxing vibe ng paligid. 🌿 Ang waterfall sobrang clear at malakas ang agos, perfect para mag-picture at mag-enjoy sa nature. Ang mga surroundings puno ng greenery, parang nasa tropical paradise ka talaga. Ang saya rin ng mag-swimming sa natural pool sa ilalim ng falls — sobrang refreshing lalo na sa mainit na araw. Truly a perfect spot for family, barkada, o kahit solo trip para makapag-unwind!</p>
+		</div>
+	
+	
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="aloha4.jpg" class="pfp"> 
+				<p class="username">Toto D Magiba</p>
+			</div>
+			<p class="comment">Aloha Falls is truly a hidden gem! Ang natural beauty nito sobrang nakakabilib — malinis, tahimik, at napaka-green ng paligid. 🌿 May hiking trails pa papunta sa falls, kaya mas exciting ang experience. Ang atmosphere sobrang calm, para kang nasa ibang mundo na malayo sa stress ng city life. Perfect para sa picnic, swimming, o simpleng relaxation. Ang highlight talaga ay ang view at ang tunog ng tubig — sobrang nakaka-refresh sa katawan at isip.</p>
+		</div>
+	
+	
+		<div class="commentbox" style="margin-top: 50px; margin-bottom: 200px;">
+			<div class="commentHeader">
+				<img src="aloha5.jpg" class="pfp"> 
+				<p class="username">Angel Krim Dimsada</p>
+			</div>
+			<p class="comment">Ang ganda ng Aloha Falls! Isa itong lugar kung saan ramdam mo talaga ang presensya ng nature — sariwa ang hangin, malinaw ang tubig, at napaka-peaceful. 🌄 Ang mga rocks sa paligid ay perfect sa photo ops, at puwede ka rin mag-relax sa ilalim ng falls habang nagpapahinga. Ang combination ng waterfall, greenery, at fresh air sobrang nakakarelax at perfect para sa family o barkada trip. Truly, ang Aloha Falls ay isang lugar na hindi mo dapat palampasin kung gusto mo ng nature getaway!”
+			</p>
+		</div>
+	</div>
+	
+		<div id="reservebox" class="reservebox">
+				<span class="closebtn ekis" id="closereserve">×</span>
+		 <div style="overflow-y: auto; scrollbar-color: #4C763B transparent; margin-top: 50px;">	
+		<table class="tablestyle">
+				
+				<tr>
+					<td class="tdimg">
+						<img src="CampEntrance.jpg" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h1> Entrance Fee </h1>
+					<p class="desc">Covers entrance to the resort, use of public facilities such asswimming pools, gardens, and viewing areas.
+						Ideal for day visitors.
+					</p>
+					<h2>₱180</h2>
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>	
+		<table class="tablestyle">
+				<tr>
+					<td class="tdimg">
+						<img src="campumbre.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Umbrella Table </h2>
+					<p>Outdoor umbrella table with chairs, good for 4–6 guests.<br/>
+						Great for dining or lounging under the shade.
+					</p>
+					<h2>₱500</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>	
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg">
+						<img src="camprregcot.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Normal Cottage </h2>
+					<p>Large native-style cottage with table and seating, good for 8–10 persons.<br/>
+						Perfect spot for meals, relaxation, and group bonding.
+					</p>
+					<h2>₱700</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		<table class="tablestyle">	
+			
+				<tr>
+					<td class="tdimg">
+						<img src="campcotbig.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Cottage Big </h2>
+					<p>Large open cottage that can accommodate 15 guests;<br/>
+					perfect for celebrations, reunions, or team outings.
+					</p>
+					<h2>₱1000</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg">
+						<img src="campcotvid.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Cottage with Videoke </h2>
+					<p>Spacious cottage with built-in karaoke setup;<br/>					
+					fits 15–20 guests — perfect for parties, reunions, and fun bonding moments.
+					</p>
+					<h2>₱1800</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campkubo1.png">
+								<img src="campkubo2.png">
+								<img src="campkubo3.png">
+								<img src="campkubo4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Bahay Kubo </h2>
+					<p>1 Double Size Bed <br/>
+						Fits up to 2 pax <br/>
+						Electric Fan & Beddings <br/>
+						Common Restroom <br/>
+						Common Grill Station <br/>
+						Basic Toiletries <br/>
+						Breakfast included <br/>
+					</p>
+					<h2>₱2300</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="camptent1.png">
+								<img src="camptent2.png">
+								<img src="camptent3.png">
+								<img src="camptent4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Family Tent </h2>
+					<p>Good for 4 pax <br/>
+					Two Double size beds <br/>
+					Fits up to 4 pax <br/>
+					Tent Accommodation <br/>
+					Non-smoking room <br/>
+					Accommodation only without Breakfast <br/>
+					Common Toilet <br/>
+					Basic Toiletries <br/>
+					</p>
+					<h2>₱2000</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>	
+		<table class="tablestyle"  style="margin-bottom: 170px;">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="camptent1.png">
+								<img src="camptent2.png">
+								<img src="camptent3.png">
+								<img src="camptent4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Glamping Kubo </h2>
+					<p>Room for 4 pax <br/>
+					Two Double size beds on bottom <br/>
+					Two Single size beds on top <br/>
+					Fits up to 6 pax (Add'l 500 per head) <br/>
+					Airconditioned Room <br/>
+					Non-smoking room <br/>
+					Free Breakfast <br/>
+					Common Toilet <br/>
+					Basic Toiletries <br/>
+					</p>
+					<h2>₱2000</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>	
+			</table>
+			
+		 </div>	
+		</div>
+	 
+		
+  <script src="main.js"></script>
+</body>
+</html>

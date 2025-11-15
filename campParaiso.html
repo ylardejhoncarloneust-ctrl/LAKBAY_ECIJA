@@ -1,0 +1,465 @@
+<!DOCTYPE html> <!-- YUNG MAY MGA COMMENT LANG GALAWIN NYO WALA NANG IBA PATI YUNG INFO.CSS WAG NYONG GAGALAWIN, KAKATAYIN KO KAYO PAG GINALAW NYO YUN-->
+<html>
+<head>
+  <title>Camp Paraiso-info</title> <!-- Palitan nyo yung title kung anong place -->
+ 
+  <link rel="stylesheet" href="info.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <span class="logo">LAKBAY ECIJA</span>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="sideMenu" id="sideMenu">
+        <div class="menu-header">
+          <h2>LAKBAY ECIJA</h2>
+          <span class="close-btn" id="close-btn">×</span>
+        </div>
+        <p class="profile">MY PROFILE</p>
+        <div class="menu-links">
+          <a href="HomePage.html">Home</a>
+          <a href="Destination.html" style="background-color: #B0CE88">Destinations</a>
+          <a href="Packages.html">Packages</a>
+          <a href="#">My Plan</a>
+        </div>
+        <a href="#" class="logout">LOG OUT</a>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="imageContainer">
+	<div class="imahe"> 
+		<img src="campParaiso1.jpg" style="width: 250px; height: 380px;"> <!-- PALITAN NYO YUNG IMAGE. PAG DINOWNLOAD NYO ILAGAY NYO SA SAME FOLDER TAPOS IN RENAME NYO YUNG MADALI TANDAAAN AT I TYPE-->
+		<img src="campParaiso2.jpg" style="width: 250px; height: 200px;"> <!-- LAHAT NG IMAGE NATO PALITAN NYO YUNG MGA MAGAGANDA AND UNIQUE DON SA DESTINATION NA GINAGAWA NYO -->
+		<img src="campParaiso3.jpg" style="width: 250px; height: 200px;"> <!-- PWEDE I EDIT YUNG HEIGHT NG IMAGE BASTA SIGURADUHIN NYO NA DI PAPANGIT AT PANTAY PARIN-->
+		<img src="campParaiso4.jpg" style="width: 250px; height: 380px;"> <!-- WAG NYO GAGALAWIN YUNG WIDTH FIX NA YUN-->
+		<img src="campParaiso5.jpg" style="width: 250px; height: 380px;">
+		<img src="campParaiso6.jpg" style="width: 250px; height: 380px;">
+    </div>
+	<div class="imahe2"> 
+			<h1>CAMP PARAISO</h1><!--SYEMPRE PALITAN NYO DIN TONG TITLE NITO TAPOS YUNG DESCRIPTION KUNIN NYO DON SA PINAGAWA KO SA INYO SA SPREADSHEET KAHIT WALA MUNA YUNG MGA PRICE AT COTTAGE SA IBANG PAGE YUN -->
+			<p class="texT">Camp Paraiso is a Bali-inspired resort in Bongabon, Nueva Ecija, known as the "Bali of Nueva Ecija" for its scenic and tranquil atmosphere. It features numerous Instagrammable spots like a love nest and waterfalls, a man-made pool with cold spring water, and offers activities such as mountain climbing, river trekking, swimming, and glamping. Accommodations range from cabins to villas, and the resort also provides options like boodle fights and karaoke. </p>
+    
+			<div class="smallButton">
+				<a href="https://maps.app.goo.gl/SkSvhbb7E6gqZy1k9" class="but">LOCATION</a> <!-- i SEARCH NYO SA GOOGLE MAP THEN I COPY NYO LINK TAPOS IPALIT NYO SA HREF -->
+				<button href="" class="but" id="reserve">RESERVATION INFO </button>
+				<button class="but" id="feed">FEEDBACK</button>
+			</div>
+	</div>
+
+	<div id="feedbox" class="feedbox">
+	 <span class="closebtn" id="closefeed">×</span>
+	 
+	 <div class="type" id="type"> 
+		<form id="commentform">
+			<textarea class="enter" id="commenttext" placeholder="Enter Your Feedback" required></textarea>
+		    <button type="submit" class="send fa-solid fa-paper-plane"></button>
+		</form>
+	 </div>
+		
+		<div id="commentbox">
+			<div id="newcomment"> </div>
+		</div>
+		
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="camp5.jpg" class="pfp"> 
+				<p class="username">Tessie Lagalag</p>
+			</div>
+			<p class="comment">Camp Paraiso iss such a peaceful and breathtaking place. Ang ganda ng tanawin at napaka-fresh ng hangin! Kapag nandito ka, mararamdaman mo talaga ang katahimikan at kalmadong hatid ng kalikasan. The sound of flowing water and the cool breeze make you forget all your worries, parang tunay na paraiso sa gitna ng kabundukan.</p>
+		</div>
+	
+	
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="camp4.jpg" class="pfp"> 
+				<p class="username">Dodong Tikwas</p>
+			</div>
+			<p class="comment">Ang Camp Paraiso ay isa sa mga lugar na talagang nakakabighani. The clear water, the lush greenery, and the calm surroundings make it a perfect getaway from the city. Habang nag rerelax ka sa tabi ng batis, maririnig mo lang ang tunog ngb tubig at mga ibon, napakapayapa! Truly it lives up to its name, a paradise indeed.</p>
+		</div>
+	
+	
+	
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="camp3.jpg" class="pfp"> 
+				<p class="username">Babylyn Takbuhan</p>
+			</div>
+			<p class="comment"> Camp Paraiso is truly a hidden gem! Ang ganda ng view, malamig ang tubig, at napaka presko ng hangin. Kapag nandoon ka, parang lumalayo ka sa lahat ng stress ng buhay. It's the kind of place that reminds you how beautiful and calming nature can be. Totoong paraiso talaga sa Pilipinas!
+				</p>
+		</div>
+	
+	
+		<div class="commentbox" style="margin-top: 50px; ">
+			<div class="commentHeader">
+				<img src="camp1.jpg" class="pfp"> 
+				<p class="username">Bebang Walang Kupas</p>
+			</div>
+			<p class="comment">What I love about Camp Paraiso is its natural beauty and serenity. Ang bawat sulok ay instagram-worthy, mula sa mga puno hanggang sa malinaw na tubig ng falls. Perfect itong puntahan kung gusto mong mag-unwind at maramdaman ang presensiya ng kalikasan. Parang isang lugar na ginawa para magpahinga ang isip at kaluluwa.</p>
+		</div>
+	
+	
+		<div class="commentbox" style="margin-top: 50px; margin-bottom: 200px;">
+			<div class="commentHeader">
+				<img src="camp2.jpg" class="pfp"> 
+				<p class="username">Mang Benjie</p>
+			</div>
+			<p class="comment">Isa sa mga pinakamasasayang karanasan ko ay ang pagpunta ng Camp Paraiso. the scenery is stunning, the green mountains, the fresh air, and the relaxing atmosphere. Habang naliligo ka sa malamig na tubig, mararamdaman mo ang tunay na ganda ng kalikasan. It's a perfect reminder that paradise isn't far, sometimes, it's just within our reach.
+			</p>
+		</div>
+	</div>
+	
+		<div id="reservebox" class="reservebox">
+				<span class="closebtn ekis" id="closereserve">×</span>
+		 <div style="overflow-y: auto; scrollbar-color: #4C763B transparent; margin-top: 50px;">	
+		<table class="tablestyle">
+				
+				<tr>
+					<td class="tdimg">
+						<img src="CampEntrance.jpg" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Entrance Fee </h2>
+					<p class="desc">Covers entrance to the resort, use of public facilities such asswimming pools, gardens, and viewing areas.
+						Ideal for day visitors.
+					</p>
+					<h2>₱180</h2>
+					</td>
+				</tr>
+		</table>	
+		
+		<table class="tablestyle">
+				<tr>
+					<td class="tdimg">
+						<img src="campumbre.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Umbrella Table </h2>
+					<p>Outdoor umbrella table with chairs, good for 4–6 guests.<br/>
+						Great for dining or lounging under the shade.
+					</p>
+					<h2>₱500</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>	
+		
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg">
+						<img src="camprregcot.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Normal Cottage </h2>
+					<p>Large native-style cottage with table and seating, good for 8–10 persons.<br/>
+						Perfect spot for meals, relaxation, and group bonding.
+					</p>
+					<h2>₱700</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		
+		<table class="tablestyle">	
+			
+				<tr>
+					<td class="tdimg">
+						<img src="campcotbig.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Cottage Big </h2>
+					<p>Large open cottage that can accommodate 15 guests;<br/>
+					perfect for celebrations, reunions, or team outings.
+					</p>
+					<h2>₱1,000</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg">
+						<img src="campcotvid.png" class="tableimg">
+					</td>
+					<td class="dtls">
+					<h2> Cottage with Videoke </h2>
+					<p>Spacious cottage with built-in karaoke setup;<br/>					
+					fits 15–20 guests — perfect for parties, reunions, and fun bonding moments.
+					</p>
+					<h2>₱1,800</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campkubo1.png">
+								<img src="campkubo2.png">
+								<img src="campkubo3.png">
+								<img src="campkubo4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Bahay Kubo </h2>
+					<p>1 Double Size Bed <br/>
+						Fits up to 2 pax <br/>
+						Electric Fan & Beddings <br/>
+						Common Restroom <br/>
+						Common Grill Station <br/>
+						Basic Toiletries <br/>
+						Breakfast included <br/>
+					</p>
+					<h2>₱2,300</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="camptent1.png">
+								<img src="camptent2.png">
+								<img src="camptent3.png">
+								<img src="camptent4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Family Tent </h2>
+					<p>Good for 4 pax <br/>
+					Two Double size beds <br/>
+					Fits up to 4 pax <br/>
+					Tent Accommodation <br/>
+					Non-smoking room <br/>
+					Accommodation only without Breakfast <br/>
+					Common Toilet <br/>
+					Basic Toiletries <br/>
+					</p>
+					<h2>₱2,000</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>
+		</table>
+		
+		<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campglamp1.png">
+								<img src="campglamp2.png">
+								<img src="campglamp3.png">
+								<img src="campglamp4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Glamping Kubo </h2>
+					<p>Room for 4 pax <br/>
+					Two Double size beds on bottom <br/>
+					Two Single size beds on top <br/>
+					Fits up to 6 pax (Add'l 500 per head) <br/>
+					Airconditioned Room <br/>
+					Non-smoking room <br/>
+					Free Breakfast <br/>
+					Common Toilet <br/>
+					Basic Toiletries <br/>
+					</p>
+					<h2>₱5,300</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>	
+			</table>
+			
+			<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campglampbahay1.png">
+								<img src="campglampbahay2.png">
+								<img src="campglampbahay3.png">
+								<img src="campglampbahay4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Cabin Sierra </h2>
+					<p>Room for 6 pax <br/>
+					Two Double size beds on bottom <br/>
+					Two Single size beds on top <br/>
+					Fits up to 8 pax (Add'l 500 per head) <br/>
+					Airconditioned Room <br/>
+					Non-smoking room <br/>
+					Free Breakfast <br/>
+					Ensuite hot & cold shower <br/>
+					Toilet <br/>
+					Basic Toiletries <br/> 
+					</p>
+					<h2>₱8,500</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>	
+			</table>
+			
+			<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campcabin1.png">
+								<img src="campcabin2.png">
+								<img src="campcabin3.png">
+								<img src="campcabin4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2>Glamping Cabin </h2>
+					<p>Room Rate for 6 pax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          Mini Refrigerator <br/> 
+					Four Doubled size beds  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Long table with Chair <br/> 
+					Two Queen size beds &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Balcony / Hanging Loft Bed <br/> 
+					Fits 12 pax(add'l 500 per head) <br/> 
+					Airconditioned Room <br/> 
+					Non-smoking room <br/> 
+					Free Breakfast for 6 pax <br/> 
+					Ensuite H&C shower with Toilet <br/> 
+					Basic Toiletries <br/> 
+					
+					
+					
+					</p>
+					<h2>₱10,500</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>	
+			</table>
+			
+			<table class="tablestyle">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campstandard1.png">
+								<img src="campstandard2.png">
+								<img src="campstandard3.png">
+								<img src="campstandard4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Standard Room </h2>
+					<p>Room for 2pax <br/>
+					One King size bed <br/>
+					Fits up to 4 pax (Add'l 500 per head) <br/>
+					Airconditioned Room <br/>
+					Non-smoking room <br/>
+					Free Breakfast <br/>
+					Cable TV <br/>
+					Ensuite hot & cold shower <br/>
+					Toilet <br/>
+					Basic Toiletries<br/> 
+					</p>
+					<h2>₱4,500</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>	
+			</table>
+			
+			<table class="tablestyle" >	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campfam1.png">
+								<img src="campfam2.png">
+								<img src="campfam3.png">
+								<img src="campfam4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Family Room </h2>
+					<p>Room for 6 pax
+					Three Double size bunk beds
+					Fits up to 9 pax (Add'l 500 per head)
+					Airconditioned Room
+					Non-smoking room
+					Free Breakfast
+					Cable TV
+					Ensuite hot & cold shower 
+					Toilet
+					Basic Toiletries<br/> 
+					</p>
+					<h2>₱5,500</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>	
+			</table>
+			
+			<table class="tablestyle"  style="margin-bottom: 170px;">	
+				<tr>
+					<td class="tdimg"> 
+						<div class="tablescrollContainer">
+							<div class="tablescroll">
+								<img src="campvilla1.png">
+								<img src="campvilla2.png">
+								<img src="campvilla3.png">
+								<img src="campvilla4.png">
+							</div>
+						</div>
+					</td>
+					<td class="dtls">
+					<h2> Whole Villa </h2>
+					<p>Room for 15 pax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ensuite hot & cold shower <br/> 	 
+					Three Rooms  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Toilet <br/> 
+					1 Family Room  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Basic Toiletries<br/> 
+					2 Standard Room <br/> 
+					Fits up to 20 pax (Add'l 500 per head) <br/> 
+					Airconditioned Room <br/> 
+					Non-smoking room <br/> 
+					Free Breakfast <br/> 
+					Cable TV <br/> 			
+					
+					</p>
+					<h2>₱14,000</h2>
+				 
+						<button class="booknow"> BOOK NOW </button>
+					</td>
+				</tr>	
+			</table>
+			
+		 </div>	
+		</div>
+	 
+		
+  <script src="main.js"></script>
+</body>
+</html>
